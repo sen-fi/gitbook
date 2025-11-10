@@ -25,9 +25,9 @@
 
 ---
 
-## Coming Soon
+## Documentation Roadmap
 
-The following sections are under development:
+The following sections are planned:
 
 **Architecture**
 - Agent Infrastructure
