@@ -1,0 +1,40 @@
+{
+  "title": "Sen Protocol Documentation",
+  "description": "Privacy-first agent-to-agent payment protocol with TEE security",
+  "author": "Sen Protocol Team",
+  "language": "en",
+  "gitbook": ">=3.2.0",
+  "plugins": [
+    "prism",
+    "-highlight",
+    "github",
+    "anchorjs",
+    "edit-link",
+    "copy-code-button",
+    "expandable-chapters-small",
+    "search-plus"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/sen-fi/sen-protocol"
+    },
+    "edit-link": {
+      "base": "https://github.com/sen-fi/gitbook/edit/main",
+      "label": "Edit This Page"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ],
+      "lang": {
+        "flow": "typescript"
+      }
+    }
+  },
+  "links": {
+    "sidebar": {
+      "GitHub": "https://github.com/sen-fi",
+      "Website": "https://sen.fi"
+    }
+  }
+}
